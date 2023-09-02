@@ -13,7 +13,7 @@ Neste projeto, buscou-se investigar a aplicação prática do Apache Hive junto 
 
 Para o desenvolvimento das análises, foi utilizado o dataset [Spotify 1921-2020](https://www.kaggle.com/datasets/yamaerenay/spotify-dataset-19212020-600k-tracks), disponível gratuitamente através do Kaggle. O dataset é constituído por duas tabelas: *artists* e *tracks*, que compreende as músicas e os artistas desde 1921 até 2020.
 
-A tabela *artists* e *tracks* são compostas por 1162095 e 586672 linhas, respectivamente. Uma música pode ter um ou mais artistas atribuídos a ela. Ambas tabelas foram armazenadas no Apache Hive no formato textfile, carregando os dados diretamente dos arquivos CSV para suas respectivas tabelas. O DLL para o carregamento desses dados pode ser conferido [aqui](https://github.com/geazi-anc/spotify/blob/main/ddl/load-data.sql).
+A tabela *artists* e *tracks* são compostas por 1162095 e 586672 linhas, respectivamente. Uma música pode ter um ou mais artistas atribuídos a ela. Ambas tabelas foram armazenadas no Apache Hive no formato textfile, carregando os dados diretamente dos arquivos CSV para suas respectivas tabelas. O DDL para o carregamento desses dados pode ser conferido [aqui](https://github.com/geazi-anc/spotify/blob/main/ddl/load-data.sql).
 
 ## Tabela Artists
 
